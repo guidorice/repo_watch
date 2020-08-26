@@ -1,0 +1,16 @@
+[package]
+name = "repo_watch"
+description = "Manage watched vs ignored github repositories."
+version = "0.1.0"
+authors = ["Alex G Rice <alex@ricegeo.dev>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = "2"
+dotenv = "0.15"
+futures = "0.3"
+hubcaps = "0.6"
+tokio = { version = "0.2", features = ["macros", "rt-threaded"] }
+
