@@ -126,4 +126,4 @@ not-watching repos (17)
 😴 https://github.com/georust/world-file (✨ 4 stars) 
 ```
 In Terminal.app you can click through the github.com URLs to 
-see additional info and of course, to Watch/
+see additional info and of course, to watch or un-watch.
