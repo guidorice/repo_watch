@@ -1,7 +1,7 @@
 [package]
 name = "repo_watch"
 description = "Manage watched vs unwatched github repositories."
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Alex G Rice <alex@ricegeo.dev>"]
 edition = "2018"
 

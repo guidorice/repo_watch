@@ -63,15 +63,14 @@ ARGS:
                [possible values: Alpha, Active, Newest]
 
 EXAMPLES:
-
     # repos belonging to authenticated user
     repo_watch user
 
     # public repos belonging to another github username
-    repo_watch user {username}
+    repo_watch user --name {username}
 
     # repos belonging to an organization name
-    repo_watch org {orgname}
+    repo_watch org --name {orgname}
 
     # all repos * all orgs, which the authenticated user has visibility into
     repo_watch all
