@@ -25,7 +25,6 @@ as far as I can tell it does not provide these answers. `repo_watch` is a comman
     cd repo_watch/
     ```
 2. Get [Rust](https://www.rust-lang.org/) for building this app. https://rustup.rs/ is a good source if you do not have Rust. 
-    (This works on 1.46 stable)
 3. Build and install using Rust's `cargo` command:
     ```shell script
     cargo install --path .
@@ -42,7 +41,7 @@ as far as I can tell it does not provide these answers. `repo_watch` is a comman
 
 ```
 $ repo_watch --help
-Repo 👀 Watch 0.1.0
+Repo 👀 Watch 0.1.2
 Alex G Rice <alex@ricegeo.dev>
 Manage watched vs unwatched github repositories.
 

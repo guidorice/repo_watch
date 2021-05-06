@@ -40,7 +40,7 @@ async fn main() -> Result<(), Box<dyn Error>> {
         Scope::Org => {
             let org_name = match name_arg {
                 Some(s) => s.to_lowercase(),
-                None => panic!("organization name is required with org scope. try --name {org_name} .")
+                None => panic!("organization name is required with org scope. try --name org_name .")
             };
             println!("fetching repos owned by organization {}...", org_name);
             in_scope_repos = organization_repos(&gh, &org_name).await?;

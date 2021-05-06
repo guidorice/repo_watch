@@ -75,14 +75,13 @@ pub fn get_args() -> ArgMatches<'static> {
 }
 
 /// Early out if incompatible cli arguments are found.
-#[allow(clippy::panic_params)]
 pub fn check_args(args: &ArgMatches) {
     // TODO: clap config may be able to enforce this check?
     let scope = value_t!(args, SCOPE, Scope);
     if let Ok(scope) = scope {
         if let Scope::Org = scope {
             if value_t!(args, NAME, String).is_err() {
-                panic!("organization name is required with org scope. try --name {org_name} .");
+                panic!("organization name is required with org scope. try --name org_name .");
             }
         }
     }
